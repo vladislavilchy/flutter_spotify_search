@@ -1,16 +1,25 @@
 # flutter_spotify_search
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 1. Development
+## 1.1 Run
+```
+  flutter pub get
+  flutter run
+```
+## 1.2 Sort imports
+```
+  dart run import_sorter:main
+```
+## 1.3 Generate localization
+```
+  flutter gen-l10n
+```
+## 1.4 Build APK
+  - Build per each cpu type
+```
+  flutter run build apk --split-per-abi
+```
+  - Build for all cpu types
+```
+  flutter run build apk --release
+```
